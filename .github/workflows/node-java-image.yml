@@ -37,5 +37,5 @@ jobs:
         with:
           context: ./node-java
           push: true
-          tags: appulent/node-java:latest
+          tags: ${{ env.REGISTRY }}/appulent/node-java:latest
       
